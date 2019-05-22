@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|PT+Serif&amp;subset=cyrillic"
+          rel="stylesheet">
+    <!--end fonts-->
+
+    <!--styles-->
+    <link rel="stylesheet" href="asset/css/bulma.css">
+    <!--<link rel="stylesheet" href="asset/css/debug.css">-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!--end styles-->
+
+    <!--JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="asset/js/go_top.js"></script>
+    <!--end JS-->
+    <title>Article</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="columns">
+    <div class="column is-three-fifths is-offset-one-fifth">
+        <nav class="level navbar is-marginless">
+            <div class="level-left">
+                <div class="navbar-brand">
+                    <a class="navbar-item is-size-3 has-text-black-bis level-item" href="#">
+                        BredoSite
+                    </a>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="navbar-menu">
+                    <div class="navbar-start level-item">
+                        <a class="navbar-item" href="#what-is">
+                            What is?
+                        </a>
+
+                        <a class="navbar-item" href="#design-types">
+                            Design types
+                        </a>
+
+                        <a class="navbar-item" href="#difference">
+                            Difference
+                        </a>
+
+                        <a class="navbar-item" href="#advantages">
+                            Advantages
+                        </a>
+
+                        <a class="navbar-item" href="#examples">
+                            Examples
+                        </a>
+
+                        <a class="navbar-item" href="#final">
+                            Final
+                        </a>
+
+                        <a class="navbar-item" href="#source">
+                            Source
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="section">
+    <div class="container has-text-black-bis">
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <h1 class="is-size-2 article-title">Адаптивный дизайн</h1>
+                <h3 class="has-text-weight-bold"><a href="#what-is" name="what-is">Что такое сайт с адаптивным
+                    дизайном?</a></h3>
+                <p>Скорее всего вы замечали что на разных устройствах сайты выглядят по-разному? На экране компьютера
+                    видно
+                    очень много функционала страницы и различной информации, на телефоне же наоборот функционал прячут в
+                    side-bar’ах, а размер информации увеличивают.</p>
+                <p>Создается впечатление что это 2 разных сайта, раньше так и было, однако сейчас у дизайнеров появилась
+                    возможность делать 1 универсальный дизайн, который будет подстраиваться под любой размер экрана. Про
+                    способы реализации подобного, и о самом дизайне мы и поговорим в данной статье.</p>
+                <a href="#true-choise" name="true-choise"><img class="img-center" src="asset/img/best-pract.png"
+                                                               alt="pic"></a>
+                <p class="subtitle is-6 has-text-centered">Рисунок 1 -
+                    Правильный
+                    выбор</p>
+                <p>Адаптивный дизайн – дизайн веб-стриниц или других приложений предполагающий свое использование на
+                    устройствах с разными размерами экрана, т.е. подстраивается под определенные размеры экрана
+                    браузера.
+                    На <a style="color: cornflowerblue" href="#true-choise">рисунке 1</a> показано как должно быть.
+                </p>
+                <h3 class="has-text-weight-bold"><a href="#design-types" name="design-types">Виды адаптивных мобильных
+                    дизайнов</a></h3>
+                <p>Есть различные подходы к созданию мобильных дизайнов, и они продолжают развиваться. Первым из них был
+                    резиновый дизайн, тогда контент страницы растягивался и сжимался в зависимости от размера окна, для
+                    разных десктоп мониторов данный подход был вполне применим, однако адаптировать его для маленьких
+                    экранов смартфонов он уже не мог. Все становилось слишком маленьким и сжатым. Поэтому появились
+                    более
+                    профитные решения.</p>
+                <div class="content">
+                    <ol>
+                        <li><p>Адаптивный макет. Данное решение предполагает создание нескольких дизайнов проекта для
+                            нескольких
+                            размеров экранов и между ними происходит переключение. Однако размеры блоков сайта жестко
+                            заданы
+                            в
+                            (px).</p>
+                        </li>
+                        <li><p>Отзывчивый макет. В подобном подходе проект делается посредством гибкой сетки, гибкими
+                            изображениями
+                            и медиазапросами. Это значит что размеры блоков задаются не в px, как в адаптивном макете, а
+                            в
+                            процентах от размера экрана. Проекту созданному на основе отзывчивого макета будет хорошо
+                            выглядеть
+                            как на мобильном, так и на десктоп устройстве.</p>
+                        </li>
+                        <li><p>Смешанный макет. В том случае если дизайнер хочет сделать максимально адаптированным к
+                            любым
+                            размерам экранов, он может смешивать оба подхода. В одних случаях делать размеры элементов
+                            статичными, в других динамичными. Подобный подход применяют при создании мобильной версии
+                            сайта
+                            на
+                            основе классической.</p>
+                        </li>
+                    </ol>
+                </div>
+                <p class="subtitle is-6 is-marginless"><a href="#table" name="table">Таблица 1 - Потому что надо</a></p>
+                <table class="table is-bordered is-striped">
+                    <tr>
+                        <th>
+                            Вопрос
+                        </th>
+                        <th>Ответ</th>
+                    </tr>
+                    <tr>
+                        <td>Нужен ли адаптив?</td>
+                        <td>Да</td>
+                    </tr>
+                    <tr>
+                        <td>Точно нужен?</td>
+                        <td>Однозначно</td>
+                    </tr>
+                </table>
+                <p>Очень важно уяснить что понятие «адаптивный дизайн» не то же самое что «адаптивный макет». Макет
+                    сайта —
+                    это просто изображение, показывающее расположение элементов сайта, а дизайн более широкое понятие,
+                    означающее подход к работе.</p>
+                <h3 class="has-text-weight-bold"><a href="#difference" name="difference">Различия между адаптивным и
+                    отзывчивым дизайном сайта.</a></h3>
+                <div class="content">
+                    <p>Отзывчивый дизайн основывается на трех базовых вещах:</p>
+                    <ul style="margin-bottom: -10px ">
+                        <li><p>медиазапросы;</p></li>
+                        <li><p>резиновый макет;</p></li>
+                        <li><p>резиновые изображения и видео;</p></li>
+                    </ul>
+                </div>
+                <p>Все эти моменты реализуются посредство HTML & CSS, ибо такой код будет работать на любом устройстве,
+                    как
+                    на десктоп, так и на мобильном. Однако при преимуществе в кроссплатформенности мы имеем ограничения
+                    по
+                    функционалу. Фактически дизайнер будет разрабатывать дизайн для мобильного устройства, который будет
+                    адаптироваться под размер экрана.</p>
+                <p>Существует также подход в разработке адаптивного дизайна так называемый mobile first. Суть его
+                    заключается в том что разработка начинается с создания мобильного, самого простого сайта, который
+                    постепенно усложняется. К вышеупомянутым HTML & CSS подключается JS.</p>
+                <p>Выглядеть подобное будет так: адаптивный сайт на смартфоне будет иметь базовые возможности, однако
+                    большая часть функционала будет скрыта. Зависимость такая, чем больше экран, тем больше функционала
+                    доступно сразу, и даже больше.</p>
+                <h3 class="has-text-weight-bold"><a href="#advantages" name="advantages">Преимущества адаптивного
+                    дизайна</a></h3>
+                <p>Есть несколько причин почему мы рекомендуем вам использовать адаптивный дизайн:</p>
+                <div class="content">
+                    <ul>
+                        <li><p>Удобвство распространения.</p></li>
+                        <li><p>Лучше создать 1 универсальную страницу, нежели создать несколько вариантов
+                            содержимого</p>
+                        </li>
+                        <li><p>Не нужна переадресация, скорость загрузки сайта всегда хорошо</p></li>
+                        <li><p>Выше оценивается роботами гугла</p></li>
+                    </ul>
+                </div>
+                <h3 class="has-text-weight-bold"><a href="#examples" name="examples">Примеры сайтов с адаптивным дизайном</a></h3>
+                <div class="content">
+                    <ul>
+                        <li><p class="link"><a href="https://colly.com/">https://colly.com/</a></p></li>
+                        <li><p class="link"><a href="http://www.anderssonwise.com/">http://www.anderssonwise.com/</a></p>
+                        </li>
+                        <li><p class="link"><a href="http://stephencaver.com/">http://stephencaver.com/</a></p></li>
+                        <li><p class="link"><a href="https://seesparkbox.com/">https://seesparkbox.com/</a></p></li>
+                    </ul>
+                </div>
+                <h3 class="has-text-weight-bold"><a href="#final" name="final">Вывод</a></h3>
+                <p>Еще в очень недалеком прошлом пожалуй можно было думать. Однако сегодня объемы трафика с мобильных
+                    устройств с каждым днём только увеличивается, из этого всего выходит что делать сайты только под
+                    десктоп
+                    просто <a class="link" href="#table">неразумно.</a>
+                    </p>
+                <div>
+                    <h3 class="has-text-weight-bold"><a href="#source" name="source">Ресурсы удаленного доступа</a></h3>
+                    <p>1 Википедия [Электронный ресурс]. -Режим доступа: <a class="link"
+                                                                            href="https://ru.wikipedia.org/wiki/%D0%90%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%B2%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD">https://ru.wikipedia.org/wiki/...</a>.
+                        -Дата доступа: 16.04.2019.</p>
+                    <p>2 Demis group [Электронный ресурс]. -Режим доступа: <a class="link"
+                                                                              href="https://www.demis.ru/articles/adaptivnyj-dizain-saita/">www.demis.ru</a>
+                        -Дата доступа: 16.04.2019.</p>
+                    <p>3 Google поиск [Электронный ресурс]. -Режим доступа: <a class="link"
+                                                                               href="https://developers.google.com/search/mobile-sites/mobile-seo/responsive-design?hl=ru">www.demis.ru</a>
+                        -Дата доступа: 16.04.2019.</p>
+                </div>
+                <hr>
+                <div class="foot-er">
+                    <p>Лубовский Александр</p>
+                    <p>&copySanyaProduction</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
